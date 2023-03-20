@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+.header{
+    height: 75px;
+    width: 1000px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login > button{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    box-shadow: 5px 5px 10px 2px black;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.col-l {
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.top-left {
+    height: 200px;
+    display: flex;
+    border: 3px solid black;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.bottom-left{
+    height: 200px;
+    display: flex;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.ninja {
+    width: 40%;
+    margin: auto;
+}
+
+.ninja > h2 {
+    margin-bottom: 10px;
+}
+
+.ninja > h5 {
+    margin-bottom: 10px;
+}
+
+.ninja > p {
+    margin-bottom: 10px;
+}
+
+
+
+.ninja > button {
+    width: 40%;
+    height: 30px;
+    background-color: orange;
+    box-shadow: 2px 2px 5px 1px black;
+    margin-bottom: 10px;
+}
+
+.definition{
+    width: 60%;
+    font-size: 25px;
+    margin: auto;
+}
+
+.col-r {
+    height: 200px;
+    border: 3px solid black;
+    margin: 20px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.col-r > h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.col-r > button {
+    width: 75%;
+    margin: 10px;
+    height: 50px;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: 5px 5px 10px 2px black;
+}
